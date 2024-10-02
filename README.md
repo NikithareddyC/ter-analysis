@@ -8,10 +8,7 @@ This project is an interactive stock analysis and prediction dashboard for **Ter
 3. [Technologies Used](#technologies-used)
 4. [Installation and Setup](#installation-and-setup)
 5. [How to Use the Dashboard](#how-to-use-the-dashboard)
-6. [Screenshots](#screenshots)
-7. [Model and Analysis Summary](#model-and-analysis-summary)
-8. [Future Enhancements](#future-enhancements)
-9. [Contact](#contact)
+6. [Model and Analysis Summary](#model-and-analysis-summary)
 
 ---
 
@@ -54,6 +51,26 @@ Make sure you have Python installed. You can download it [here](https://www.pyth
 5. **View the Dashboard**: After running the command above, open your browser and go to
    ```arduino
    http://localhost:8501
+   
+**How to Use the Dashboard**
+Once the dashboard is up and running, you can use it as follows:
+
+Select the Date Range:
+
+Use the sidebar on the left to select the start and end dates for the analysis.
+The dashboard will automatically update the visualizations based on the selected date range.
+Set the Forecast Period:
+
+Choose the number of days to forecast future prices. The forecast period can be set between 30 days and 180 days.
+Explore Visualizations:
+
+Historical Prices and Moving Averages: View the historical stock prices along with 20-day and 50-day moving averages.
+Trading Volume Analysis: Observe the trading volume to see how active the stock is over different periods.
+Volatility Analysis: Check the 30-day annualized volatility to understand the risk associated with the stock.
+View Future Price Predictions:
+
+See the Predicted Price graph to analyze the LSTM model’s forecast for the future stock prices.
+Interact with the graph by hovering over data points to explore different segments of the predicted data.
 **Model and Analysis Summary**
 
 1. LSTM Model for Time Series Forecasting:
