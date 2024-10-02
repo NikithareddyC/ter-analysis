@@ -9,7 +9,7 @@ This project is an interactive stock analysis and prediction dashboard for **Ter
 4. [Installation and Setup](#installation-and-setup)
 5. [How to Use the Dashboard](#how-to-use-the-dashboard)
 6. [Model and Analysis Summary](#model-and-analysis-summary)
-
+7. [Live App Link](#Dashboard)
 ---
 
 ## Project Overview
@@ -82,3 +82,7 @@ TER stock shows moderate volatility over the analyzed period.
 3. Cumulative Returns:
 Cumulative returns provide a long-term view of the stock’s performance.
 These returns are calculated based on daily price movements, reflecting the stock’s growth over time.
+
+## Live App Link
+**Dashboard**
+Check out the live dashboard [here](https://ter-analysis-z4dz8mstiyavne2pvexywe.streamlit.app/).
